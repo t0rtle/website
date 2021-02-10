@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'railwayregular';
+    src: url('font/Railway-webfont.eot');
+    src: url('font/Railway-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Railway-webfont.woff2') format('woff2'),
+         url('font/Railway-webfont.woff') format('woff'),
+         url('font/Railway-webfont.ttf') format('truetype'),
+         url('font/Railway-webfont.svg#railwayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helsinkiregular';
+    src: url('font/helsinki-webfont.eot');
+    src: url('font/helsinki-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/helsinki-webfont.woff2') format('woff2'),
+         url('font/helsinki-webfont.woff') format('woff'),
+         url('font/helsinki-webfont.ttf') format('truetype'),
+         url('font/helsinki-webfont.svg#helsinkiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #314745;
+}
+
+#titre {
+    font-size: 35px;
+    color: white;
+    font-family: railwayregular, Comic Sans MS, Arial;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.products .products-item {
+    width: 350px;
+    height: 550px;
+    display: inline-block;
+    text-align: center;
+    font-family: "railwayregular", sans-serif;
+    border-radius: 10px;
+    background-color: black;
+    margin: 15px 0px 6px;
+}
+
+.titreaa {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: helsinkiregular;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+}
+
+#bouton1 {
+    border: 10px;
+    color: white;
+    background-color: #2f5c48;
+    padding: 16px 32px;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    font-family: railwayregular;
+    border-radius: 16px;
+    font-weight: bold;
+    display: flex;
+    margin: 115px auto 5px auto;
+    display: block;
+    box-shadow: 4px 3.5px 0px #21382e;
+  }
+
+#bouton1:hover {
+    background-color: #329958;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    width: 270px;
+    height: 55px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 0 1620px 0;
+}
+
+a:link,
+a:visited {
+    color: white;
+    text-align: auto;
+    font-family: railwayregular;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div {
+    margin: auto;
+}
+
+img {
+    border: 15px solid white;
+    border-radius: 10px;
+}

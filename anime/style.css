@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'railwayregular';
+    src: url('font/Railway-webfont.eot');
+    src: url('font/Railway-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Railway-webfont.woff2') format('woff2'),
+         url('font/Railway-webfont.woff') format('woff'),
+         url('font/Railway-webfont.ttf') format('truetype'),
+         url('font/Railway-webfont.svg#railwayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helsinkiregular';
+    src: url('font/helsinki-webfont.eot');
+    src: url('font/helsinki-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/helsinki-webfont.woff2') format('woff2'),
+         url('font/helsinki-webfont.woff') format('woff'),
+         url('font/helsinki-webfont.ttf') format('truetype'),
+         url('font/helsinki-webfont.svg#helsinkiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.dheadnote
+{
+    background-color: white;
+    font-family: helsinkiregular;
+}
+
+.attackofhead
+{
+    background-color: white;
+    font-family: helsinkiregular;
+}
+
+.headbizzareadventure
+{
+    background-color: white;
+    font-family: helsinkiregular;
+}
+
+.huntheadhunthead
+{
+    background-color: white;
+    font-family: helsinkiregular;
+}
+
+#episode
+{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-right: auto;
+}
