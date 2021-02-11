@@ -55,9 +55,6 @@ body {
     font-size: 25px;
     font-weight: bold;
     font-family: helsinkiregular;
-    display: flex;
-    align-self: flex-end;
-    justify-content: space-between;
     text-align: center;
 }
 
@@ -92,7 +89,7 @@ nav {
     height: 55px;
     border: 5px solid white;
     border-radius: 10px;
-    margin: 0 1620px 0;
+    margin: 0 1600px 0;
 }
 
 a:link,
