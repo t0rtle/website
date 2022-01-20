@@ -132,3 +132,9 @@ img {
     border-radius: 10px;
 }
 
+#titre1 {
+    font-size: 35px;
+    color: white;
+    font-family: railwayregular, Comic Sans MS, Arial;
+    text-align: left;
+}
